@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101c36">
+<title>Shahdol Digital Directory</title>
+<style>
+:root{--navy:#101c36;--blue:#2457c5;--gold:#f4b942;--ink:#172033;--muted:#65718a;--bg:#f4f7fc;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Devanagari",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+header{background:linear-gradient(120deg,#101c36,#244b91);color:white;padding:28px 18px 34px}
+.wrap{max-width:1100px;margin:auto;padding:0 16px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{font-weight:800;font-size:1.3rem}.tag{color:#d9e5ff;font-size:.9rem}
+h1{font-size:clamp(1.8rem,5vw,3rem);line-height:1.15;margin:30px 0 8px}header p{color:#e3ebff;max-width:720px;margin:0}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}nav a{color:white;text-decoration:none;border:1px solid #ffffff55;padding:7px 12px;border-radius:20px;font-size:.9rem}
+main{padding:24px 0 50px}.hero-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:-2px}
+.card{background:var(--card);border:1px solid #e4eaf4;border-radius:16px;padding:18px;box-shadow:0 5px 18px #1b31500a}
+.stat strong{display:block;font-size:1.6rem;color:var(--blue)}.stat span,.muted{color:var(--muted);font-size:.9rem}
+section{margin-top:28px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+h2{font-size:1.35rem;margin:0;color:var(--navy)}h3{font-size:1.05rem;margin:0 0 6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+a{color:var(--blue)}.pill{display:inline-block;background:#edf3ff;color:#214da5;padding:3px 9px;border-radius:20px;font-size:.8rem;margin:3px 3px 0 0}
+.search{width:100%;padding:13px 15px;border:1px solid #d7dfed;border-radius:12px;font:inherit;background:white}
+.item p{margin:4px 0;color:var(--muted);font-size:.92rem}.item a{font-weight:650;text-decoration:none}
+.notice{border-left:4px solid var(--gold);background:#fff8e8;padding:12px 14px;border-radius:8px;color:#59451b;font-size:.9rem}
+.chat{display:grid;grid-template-columns:1fr;gap:12px}.chatbox{min-height:180px;max-height:360px;overflow:auto;background:#f8faff;border:1px solid #e1e8f4;border-radius:12px;padding:12px}
+.msg{padding:10px 12px;border-radius:12px;margin:8px 0;max-width:92%;white-space:pre-wrap}.user{background:#e4edff;margin-left:auto}.bot{background:white;border:1px solid #e5eaf2}
+.chatrow{display:flex;gap:8px}.chatrow input{flex:1;min-width:0;padding:12px;border:1px solid #d7dfed;border-radius:10px;font:inherit}.btn{border:0;background:var(--blue);color:white;border-radius:10px;padding:11px 16px;font:inherit;font-weight:700;cursor:pointer}.btn:disabled{opacity:.6;cursor:wait}
+footer{background:#101c36;color:#d8e2f6;padding:24px 0;font-size:.9rem}footer a{color:#fff}
+@media(max-width:520px){.chatrow{flex-direction:column}.chatrow .btn{width:100%}}
+</style></head>
+<body>
+<header><div class="wrap">
+<div class="top"><div class="brand">🏞️ Shahdol Digital Directory</div><div class="tag">शहडोल जिले की जानकारी — एक जगह</div></div>
+<h1>अपने शहडोल को जानें</h1><p>जिले की सामान्य जानकारी, जरूरी हेल्पलाइन, पर्यटन स्थल, सरकारी सेवाओं और उपयोगी डायरेक्टरी लिंक तक आसान पहुँच।</p>
+<nav><a href="#about">जिला परिचय</a><a href="#help">हेल्पलाइन</a><a href="#tourism">पर्यटन</a><a href="#directory">डायरेक्टरी</a><a href="#ai">AI सहायक</a></nav>
+</div></header>
+<main class="wrap">
+<div class="hero-grid">
+<div class="card stat"><strong>2011</strong><span>जनगणना आधारित आँकड़ों का वर्ष</span></div>
+<div class="card stat"><strong>4</strong><span>राजस्व अनुविभाग — प्रकाशित जिला आँकड़ों के अनुसार</span></div>
+<div class="card stat"><strong>391</strong><span>ग्राम पंचायत — प्रकाशित जिला आँकड़ों के अनुसार</span></div>
+<div class="card stat"><strong>886</strong><span>गाँव — प्रकाशित जिला आँकड़ों के अनुसार</span></div>
+</div>
+<section id="about"><div class="section-head"><h2>शहडोल जिला परिचय</h2></div>
+<div class="card"><p>शहडोल मध्य प्रदेश का एक जिला है। यह क्षेत्र प्राकृतिक संसाधनों, जंगलों, स्थानीय संस्कृति और रेल संपर्क के लिए जाना जाता है। शहडोल संभाग और शहडोल जिले को एक न समझें—संभाग में शहडोल के अलावा उमरिया और अनूपपुर जिले भी शामिल हैं।</p>
+<p class="muted">ऊपर दिए प्रशासनिक आँकड़े पुराने प्रकाशित/2011-आधारित संदर्भ हैं; इन्हें वर्तमान सरकारी आँकड़ा न मानें। वेबसाइट स्वतंत्र नागरिक सूचना परियोजना है, सरकारी वेबसाइट नहीं।</p></div></section>
+<section id="help"><div class="section-head"><h2>जरूरी हेल्पलाइन नंबर</h2></div>
+<div class="grid">
+<div class="card item"><h3>🚑 एम्बुलेंस</h3><p>108 — आपातकालीन एम्बुलेंस सेवा</p><a href="tel:108">108 पर कॉल करें</a></div>
+<div class="card item"><h3>🚨 राष्ट्रीय आपातकाल</h3><p>112 — पुलिस, अग्निशमन और अन्य आपात सहायता</p><a href="tel:112">112 पर कॉल करें</a></div>
+<div class="card item"><h3>👩 महिला हेल्पलाइन</h3><p>1091 — महिला सहायता</p><a href="tel:1091">1091 पर कॉल करें</a></div>
+<div class="card item"><h3>🧒 चाइल्ड हेल्पलाइन</h3><p>1098 — बच्चों की सहायता</p><a href="tel:1098">1098 पर कॉल करें</a></div>
+<div class="card item"><h3>🏛️ CM हेल्पलाइन</h3><p>181 — मध्य प्रदेश शासन की शिकायत सेवा</p><a href="tel:181">181 पर कॉल करें</a></div>
+</div></section>
+<section id="tourism"><div class="section-head"><h2>पर्यटन और दर्शनीय स्थल</h2></div>
+<div class="grid">
+<div class="card item"><h3>बाणसागर बाँध</h3><p>सोन नदी पर स्थित बहुउद्देशीय बाँध। यात्रा से पहले स्थानीय पहुँच और नियम जाँचें।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bansagar+Dam+Madhya+Pradesh">मैप देखें ↗</a></div>
+<div class="card item"><h3>सरसी आइलैंड</h3><p>जिले के पर्यटन स्थलों में शामिल प्राकृतिक/जलाशय क्षेत्र।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sarsi+Island+Shahdol">मैप देखें ↗</a></div>
+<div class="card item"><h3>भटिया देवी मंदिर</h3><p>स्थानीय धार्मिक स्थल।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bhatia+Devi+Temple+Shahdol">मैप देखें ↗</a></div>
+<div class="card item"><h3>पचमठा मंदिर</h3><p>जिला पर्यटन सूची में उल्लेखित धार्मिक स्थल।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Pachmatha+Temple+Shahdol">मैप देखें ↗</a></div>
+<div class="card item"><h3>बांधवगढ़ राष्ट्रीय उद्यान</h3><p>प्रसिद्ध राष्ट्रीय उद्यान उमरिया जिले में है, शहडोल जिले में नहीं।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bandhavgarh+National+Park">मैप देखें ↗</a></div>
+<div class="card item"><h3>लकरबरिया गुफाएँ</h3><p>स्थानीय दर्शनीय स्थल के रूप में जिला पर्यटन जानकारी में उल्लेख।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Lakbariya+Caves+Shahdol">मैप देखें ↗</a></div>
+</div></section>
+<section id="directory"><div class="section-head"><h2>उपयोगी डायरेक्टरी</h2></div>
+<input class="search" id="find" placeholder="जैसे अस्पताल, कॉलेज, बैंक, पेट्रोल पंप खोजें…">
+<div class="grid" id="directoryGrid">
+<div class="card item"><h3>🏥 अस्पताल और क्लिनिक</h3><p>शहडोल के आसपास स्वास्थ्य सेवाएँ खोजें।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hospitals+in+Shahdol">अस्पताल खोजें ↗</a></div>
+<div class="card item"><h3>🏫 स्कूल और कॉलेज</h3><p>शिक्षण संस्थानों की लोकेशन देखें।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Schools+and+Colleges+in+Shahdol">स्कूल/कॉलेज खोजें ↗</a></div>
+<div class="card item"><h3>🏦 बैंक और ATM</h3><p>बैंक शाखाएँ और ATM खोजें।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Banks+ATMs+in+Shahdol">बैंक/ATM खोजें ↗</a></div>
+<div class="card item"><h3>⛽ पेट्रोल पंप</h3><p>नजदीकी पेट्रोल पंप खोजें।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Petrol+Pump+in+Shahdol">पेट्रोल पंप खोजें ↗</a></div>
+<div class="card item"><h3>💊 मेडिकल स्टोर</h3><p>दवा दुकानें खोजें।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Medical+Stores+in+Shahdol">मेडिकल स्टोर खोजें ↗</a></div>
+<div class="card item"><h3>🚌 बस और परिवहन</h3><p>बस स्टैंड और परिवहन सेवाएँ खोजें।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bus+Stand+Transport+in+Shahdol">परिवहन खोजें ↗</a></div>
+<div class="card item"><h3>🏨 होटल</h3><p>होटल और ठहरने की जगहें खोजें।</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hotels+in+Shahdol">होटल खोजें ↗</a></div>
+<div class="card item"><h3>⚡ बिजली सेवा</h3><p>बिजली बिल और सेवा संबंधी जानकारी के लिए आधिकारिक पोर्टल।</p><a target="_blank" rel="noopener" href="https://www.mpez.co.in/">MPEZ वेबसाइट ↗</a></div>
+<div class="card item"><h3>⚖️ मध्य प्रदेश उच्च न्यायालय</h3><p>मुख्य पीठ जबलपुर में; खंडपीठ इंदौर और ग्वालियर में।</p><a target="_blank" rel="noopener" href="https://mphc.gov.in/">आधिकारिक वेबसाइट ↗</a></div>
+</div>
+<p class="notice">नोट: ये खोज लिंक हैं, शहडोल के सभी संस्थानों की सत्यापित पूरी सूची नहीं। फोन नंबर, समय और सेवाएँ जाने से पहले संबंधित संस्था से पुष्टि करें।</p>
+</section>
+<section id="ai"><div class="section-head"><h2>🤖 Shahdol AI सहायक</h2><span class="pill">Backend से सुरक्षित API</span></div>
+<div class="card chat"><p class="muted">शहडोल, पर्यटन, हेल्पलाइन या वेबसाइट में उपलब्ध जानकारी के बारे में पूछें। आपात स्थिति में AI के बजाय सीधे आधिकारिक हेल्पलाइन पर कॉल करें।</p>
+<div class="chatbox" id="chatbox" aria-live="polite"><div class="msg bot">नमस्ते! मैं Shahdol AI सहायक हूँ। आप क्या जानना चाहते हैं?</div></div>
+<div class="chatrow"><input id="question" maxlength="1000" placeholder="अपना सवाल लिखें…"><button class="btn" id="send">भेजें</button></div>
+<div class="muted" id="status">AI सुविधा चालू करने के लिए Backend deploy करके GROQ_API_KEY सेट करें।</div></div></section>
+<section><div class="section-head"><h2>आधिकारिक स्रोत</h2></div><div class="card">
+<p><a target="_blank" rel="noopener" href="https://shahdol.nic.in/">जिला शहडोल आधिकारिक वेबसाइट</a> ·
+<a target="_blank" rel="noopener" href="https://www.mppolice.gov.in/">मध्य प्रदेश पुलिस</a> ·
+<a target="_blank" rel="noopener" href="https://ecourts.gov.in/">ई-कोर्ट्स</a> ·
+<a target="_blank" rel="noopener" href="https://ceomadhyapradesh.nic.in/">CEO मध्य प्रदेश</a></p>
+</div></section>
+</main>
+<footer><div class="wrap">यह स्वतंत्र सूचना परियोजना है, सरकारी वेबसाइट नहीं। जानकारी बदल सकती है—महत्वपूर्ण निर्णय से पहले आधिकारिक स्रोत से पुष्टि करें।</div></footer>
+<script>
+const find=document.getElementById('find');
+find.addEventListener('input',()=>{const q=find.value.trim().toLocaleLowerCase('hi');document.querySelectorAll('#directoryGrid .item').forEach(el=>el.style.display=el.innerText.toLocaleLowerCase('hi').includes(q)?'':'none')});
+const box=document.getElementById('chatbox'), input=document.getElementById('question'), send=document.getElementById('send'), statusEl=document.getElementById('status');
+function add(text,who){const d=document.createElement('div');d.className='msg '+who;d.textContent=text;box.appendChild(d);box.scrollTop=box.scrollHeight}
+async function ask(){const question=input.value.trim();if(!question)return;add(question,'user');input.value='';send.disabled=true;statusEl.textContent='जवाब तैयार हो रहा है…';
+try{const res=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:question})});const data=await res.json();if(!res.ok)throw new Error(data.error||'अभी जवाब नहीं मिल पाया।');add(data.reply||'कोई जवाब नहीं मिला।','bot');statusEl.textContent='';}
+catch(e){add('AI सेवा अभी उपलब्ध नहीं है। Backend deploy और API key configuration जाँचें।','bot');statusEl.textContent=e.message;}
+finally{send.disabled=false;input.focus()}}
+send.addEventListener('click',ask);input.addEventListener('keydown',e=>{if(e.key==='Enter')ask()});
+</script></body></html>
